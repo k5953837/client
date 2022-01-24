@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { CalendarIcon, ChevronRightIcon } from '@heroicons/react/solid';
+import { CalendarIcon } from '@heroicons/react/solid';
 
 const JobsList = props => {
 
