@@ -4,7 +4,7 @@ import axios from 'axios';
 const JobsList = props => {
 
   useEffect(() => {
-    axios.get('https://loading-test-backend.herokuapp.com/api/v1/jobs.json')
+    axios.get('https://loading-test.kitb.cc/api/v1/jobs.json')
         .then(res => setJobs(res.data))
       }, []);
 
